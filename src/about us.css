@@ -1,0 +1,54 @@
+.main{
+  background-color:#1f21c9
+}
+body{
+  display:grid;
+  grid-template-rows: auto 1fr auto;
+  min-height:100vh;
+}
+h1,h2{
+  text-align:center;
+}
+
+
+
+.bottom {
+  position:relative;
+  bottom: absolute;
+ 
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+  
+}
+
+a:hover {
+  text-decoration: none;
+  color: #003D60
+}
+a:link {
+  text-decoration: none;
+}
+li{
+  color:#000000;
+  
+}
+li:hover{
+ color: #ffffff 
+}
+
+p{
+  padding:px;
+  text-align:center;
+}
+
+img {
+  display: block;
+  width: 10%;
+  height: auto;
+  text-align:center;
+}
