@@ -93,3 +93,10 @@ p{
   float: left;
   padding: 15px;
 }
+
+img {
+  display: block;
+  width: 10%;
+  height: auto;
+  text-align:center;
+}
