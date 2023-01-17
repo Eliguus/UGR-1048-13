@@ -1,5 +1,5 @@
 .main{
-  background-color:#1f21c9
+  background-color:#72A0C1
 }
 body{
   display:grid;
@@ -92,4 +92,45 @@ img {
 [class*="col-"] {
   float: left;
   padding: 15px;
+}
+
+.container{
+  background:#A3C1AD;
+  display:flex;
+  flex-direction: column;
+  width: 60%;
+  max-width:600px;
+  border-radius:10px;
+  align-items:center;
+}
+
+form input{
+  margin:10px 0;
+  padding:5px;
+  outline:none;
+  width:80%;
+  border-radius:5px;
+  outline:none;
+  background-color:#ececec
+}
+
+form label{
+  padding:15px;
+  color:white;
+}
+form button{
+  padding:10px;
+  background:black;
+  color:white;
+  font-size:18px;
+  border-radius:10px;
+  margin:20px 30px 10px;
+  outline:none;
+  width:150px;
+  border:0;
+}
+
+form select{
+  padding:8px;
+  font-size:13px
 }
