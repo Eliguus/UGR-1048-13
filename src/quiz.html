@@ -4,13 +4,18 @@
     <title>quiz</title>
     <link rel="icon" type="image/x-icon" href="image/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='quiz.css'>
 </head>
 <body>
-<a href='home.html'><img src='image/logo.png' alt='logo'></a>
-<hr>
+  <div class='main'>
+<a href='home.html'><img src='image/logo.png' alt='logo of atse'></a>
+    </div>
+  <hr>
+  <div class='container'>
+      <script src='quiz.js'></script>
 <form>
     <p>1.Enzyme found in mouth</p>
-    <input type='radio' name='1' value='A' id='A'>
+    <input type='radio' name='1' value='A' id='1'>
     <label for='A'>lingual lipase</label><br>
     <input type='radio' name='1' value='b' id='b'>
     <label for='b'>enterogastrone</label><br>
@@ -25,7 +30,7 @@
     <label for='2b'>CCK</label><br>
     <input type='radio' name='2' value='2C' id='2C'>
     <label for='2C'>cholecystikinin</label><br>
-    <input type='radio' name='2' value='2D' id='2D'>
+    <input type='radio' name='2' value='2D' id='2'>
     <label for='2D'>GLP</label><br>
 </form>
 <form>
@@ -33,41 +38,57 @@
         <tr>
             <td>
                 <input type='text' name='box1' size='1' id='3'>
-                    <label for='3'>3.GIP</label><br>
-                <br>
-                <input type='text' name='box2' size='1' id='4'>
-                <label for='4'>4.CCK</label><br>
-                <br>
-                <input type='text' name='box3' size='1' id='5'>
-                <label for='5'>5.PL</label><br>
-                <br>
-                <input type='text' name='box4' size='1' id='6'>
-                <label for='6'>6.LL</label><br>
-                <br>
-                
-            </td>
-            
-            <td>
+                    <label for='3'>3.GIP</label>
+              
+          </td>
+          <td>
                 A.Pancreatic Lipase
-                <br>
+          </td>
+      </tr>
+      
+      <tr>
+            <td>
+                <input type='text' name='box2' size='1' id='4'>
+                    <label for='4'>4.CCK</label>
+              
+          </td>
+          <td>
                 B.Gastric Inhaitory Polypeptides
-                <br>
+          </td>
+      </tr>
+      <tr>
+            <td>
+                <input type='text' name='box3' size='1' id='5'>
+                    <label for='5'>5.PL</label>
+              
+          </td>
+          <td>
                 C.Lipoprotien Lipase
-                <br>
+          </td>
+      </tr>
+      <tr>
+            <td>
+                <input type='text' name='box4' size='1' id='6'>
+                    <label for='6'>6.LL</label>
+              
+          </td>
+          <td>
                 D.Cholecystokinin
-            </td>
-        </tr>
+          </td>
+      </tr>
+    
     </table>
-    <input type='button' value='check'>
+    <button onClick="result()"> evaluate </button>
 </form>
-
+  </div>
 <hr>
-<ul>
+<ul class='main bottom'>
     <div>
         <a href='about us.html'><li>about us</li></a>
         <a href='contact us.html'><li>contact us</li></a>
         <a href='success stories.html'><li>success stories</li></a>
     </div>
+  
     <div>
         <p>Education is the passport to the future, for tomorrow belongs to those who prepare for it today.
         </p>
@@ -75,9 +96,8 @@
   
 </ul>
 
-
 </body>
-<footer>
+<footer class='main bottom'>
 <hr>
 <ul>
     <li>Addis Ababa</li>
