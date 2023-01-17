@@ -12,15 +12,16 @@
     </div>
   <hr>
   <div class='row'>
-  <div class='col-6'>
+  <div class='col-6 col-s-6 container'>
 <h1>Share your story</h1>
-<form>
+      <script src='contact us.js' ></script>
+<form onsubmit="return handle_form_submission()">
     <label for='name'>Name</label><br>
     <input type='text' id='name' name='name'><br>
     <label for='email'>Email</label><br>
     <input type='email' id='email' name='email'><br>
-    <label for='story'>Your story</label><br>
-    <input type='text' id='story' name='story'><br>
+    <label for='story' >Your story</label><br>
+    <input type='text' id='story' name='story' style='padding:50px;'><br>
     <label for='media'>Picture/Audio/Video</label><br>
     <input type='file' id='media' name='media'><br>
     <select>
@@ -29,10 +30,10 @@
         <option value='teacher'>Teacher</option>
         <option value='interested'>Interested Party</option>
     </select><br>
-    <input type='submit' value='submit'>
+  <button type='submit' value='submit'>submit</button>
 </form>
   </div>
-  <div class='col-1'>
+  <div class='col-1 col-s-3'>
 <h2>Contact Us</h2>
 <a href='www.gmail.com'>Email</a><br>
 <a href='www.facebook.com'>Facebook</a><br>
